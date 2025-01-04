@@ -109,9 +109,25 @@ export default function QuickFind() {
           <p className="text-lg text-[#59981A] mb-8">
             Join our community and experience the convenience of QuickFind today!
           </p>
-          <button className="bg-[#0A3357] text-white px-6 py-3 rounded-lg hover:bg-[#051e3b] transition">
-            Download the App
+
+          <a href="https://play.google.com/store/apps/details?id=com.codewithak.quickfind">
+          <button className="bg-[#0A3357] text-white pl-2 pr-4 py-2 rounded-lg hover:bg-[#051e3b] inline-flex items-center gap-2 ">
+          <img src="/playstore.png" alt="WhatsApp" className="w-10 h-10" /> Download the App
           </button>
+          </a>
+          
+
+          {/* <div className="mt-4">
+            <a 
+              href="https://wa.me/6390168645?text=Hi!%20I%20want%20to%20know%20more%20about%20BlinkFind." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-lg shadow-md hover:bg-[#1DA851] transition inline-flex items-center gap-2"
+            >
+              <img src="/whats.svg" alt="WhatsApp" className="w-5 h-5" />
+              Chat on WhatsApp
+            </a> */}
+
         </div>
       </section>
     </div>

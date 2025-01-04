@@ -42,7 +42,8 @@ const Hero = () => {
             </p>
 
             <span className="">
-              <a href='#Contact Us' className="hidden lg:block w-44 bg-[#51B504] text-[#FFFFFF] lg:pt-[20px] lg:pr-[26px] lg:pb-[20px] lg:pl-[30px] lg:rounded-[16px] lg:text-lg lg:mt-[10px] xs:mt-[7px] font-bold sm:pt-[2px] sm:pb-[2px] sm:pr-[10px] sm:pl-[10px] sm:rounded-[5px] sm:text-[12px] xs:text-[12px] xs:pt-[2px] xs:pb-[2px] xs:pr-[10px] xs:pl-[10px] xs:rounded-[5px] xs:font-[400]">
+              <a href='https://play.google.com/store/apps/details?id=com.codewithak.quickfind'   
+              className="hidden lg:block w-44 bg-[#51B504] text-[#FFFFFF] text-center lg:pt-[20px] lg:pr-[26px] lg:pb-[20px] lg:px-[10px] lg:rounded-[16px] lg:text-lg lg:mt-[10px] xs:mt-[7px] font-bold sm:pt-[2px] sm:pb-[2px] sm:pr-[10px] sm:pl-[10px] sm:rounded-[5px] sm:text-[12px] xs:text-[12px] xs:pt-[2px] xs:pb-[2px] xs:pr-[10px] xs:pl-[10px] xs:rounded-[5px] xs:font-[400]">
                 Get Started
               </a>
             </span>

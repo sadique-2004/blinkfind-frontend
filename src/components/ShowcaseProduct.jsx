@@ -47,7 +47,7 @@ const ShowcaseProduct = () => {
 
           <div className="mt-8">
             <Link href="/quickfind">
-              <Button className="bg-[#51B504] hover:bg-[#3f8c03] text-white">
+              <Button className="bg-[#51B504] hover:bg-[#3f8c03] text-white px-4 py-6">
                 Learn More About QuickFind
               </Button>
             </Link>
@@ -55,18 +55,21 @@ const ShowcaseProduct = () => {
         </div>
 
        
-        <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
+        {/* <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
           <div className="relative w-full max-w-[300px] aspect-[9/16] bg-gray-100 rounded-lg overflow-hidden shadow-lg">
             {isPlaying ? (
               <video
                 className="absolute inset-0 w-full h-full object-cover"
                 src="/Videos/quickFind_video.mp4"
+                
                 title="QuickFind App Demo"
                 autoPlay
                 controls
                 muted
                 loop
               ></video>
+
+              
                
             ) : (
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
@@ -79,9 +82,9 @@ const ShowcaseProduct = () => {
               </div>
             )}
           </div>
-        </div>
+        </div> */}
           {/* for horizontal video */}
-              {/* <div className="w-full md:w-1/2 mt-8 md:mt-0">
+              <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <div className="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
             {isPlaying ? (
          
@@ -95,7 +98,7 @@ const ShowcaseProduct = () => {
               // ></video>
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                src="https://www.youtube.com/embed/BltWQv_KYwE?si=Cm-GStGv6YYdRcHN"
                 // src="/Videos/quickFind_video.mp4"
                 title="QuickFind App Demo"
                 allow="accelerometer; autoplay;"
@@ -113,7 +116,7 @@ const ShowcaseProduct = () => {
               </div>
             )}
           </div>
-        </div> */}
+        </div>
         
       </div>
     </div>

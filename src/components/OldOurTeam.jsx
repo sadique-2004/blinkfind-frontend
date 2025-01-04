@@ -3,23 +3,7 @@ import React from "react"; // Import React
 
 const OurTeam = () => {
   const teamMembers = [
-    {
-      name: "Faiz Ur Rehman",
-      role: "Lead Web Developer",
-      imageSrc: "/OurTeamImages/profile.jpg", // Replace with your local image
-      social: {
-        linkedin: "/OurTeamImages/linkedin.svg",
-        instagram: "/OurTeamImages/instagram.svg",
-        facebook: "/OurTeamImages/facebook.svg",
-      },
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/faiz-ur-rehman-400b36247",
-        instagram: "https://www.instagram.com/iamfaiiizzzz/",
-        facebook: "https://m.facebook.com/100069625092320/",
-      },
-      description:
-        "Hi, I’m Faiz Ur Rehman, a Full Stack Developer and freelancer, focused on delivering top-quality web solutions for clients.",
-    },
+ 
     // Add more members as needed...
     {
       name: "Nitendra Singh",
